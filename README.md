@@ -14,7 +14,7 @@ gpt2-korean/
 ├── data/
 │   └── input.txt       # 한국어 학습 말뭉치 (위키문헌 공개 작품 39편, 약 52만 자)
 ├── notebooks/
-│   ├── GPT_korean_ONECELL.ipynb   # ★ Colab 추천 — 셀 1개로 전부 실행
+│   ├── GPT_korean_FINAL.ipynb     # ★ 최종 버전 (Colab 추천, 셀 단위로 정리)
 │   ├── GPT_korean_colab.ipynb     # char-level 단계별 버전
 │   └── GPT_korean_BPE_colab.ipynb # 직접 구현한 BPE 토크나이저 버전 (보너스)
 ├── results/
@@ -27,7 +27,7 @@ gpt2-korean/
 
 ## 실행
 
-**A. Colab (권장)** — `notebooks/GPT_korean_ONECELL.ipynb` 를 업로드 → `런타임 유형 = GPU(T4)` → 셀 실행.
+**A. Colab (권장)** — `notebooks/GPT_korean_FINAL.ipynb` 를 업로드 → `런타임 유형 = GPU(T4)` → `런타임 → 모두 실행`.
 데이터가 노트북에 내장되어 별도 업로드가 필요 없습니다.
 
 **B. 로컬 (venv)**
