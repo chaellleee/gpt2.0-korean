@@ -4,11 +4,9 @@ __pycache__/
 .venv/
 venv/
 
-# 학습 산출물 (용량 크고 재생성 가능)
-*.pt
-ckpt*.pt
-state*.pt
-samples.txt
-
 # OS
 .DS_Store
+
+# 임시 학습 상태 파일(중간 체크포인트)은 제외하되,
+# 최종 결과물 results/ckpt_best.pt, results/samples.txt 는 포함합니다.
+state*.pt

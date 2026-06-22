@@ -18,7 +18,9 @@ gpt2-korean/
 │   ├── GPT_korean_colab.ipynb     # char-level 단계별 버전
 │   └── GPT_korean_BPE_colab.ipynb # 직접 구현한 BPE 토크나이저 버전 (보너스)
 ├── results/
-│   └── loss_curve.png  # 학습 손실 곡선
+│   ├── loss_curve.png  # 학습 손실 곡선
+│   ├── ckpt_best.pt    # 학습된 모델 (val 최저 시점)
+│   └── samples.txt     # 모델이 생성한 한국어 텍스트
 └── docs/
     └── DEVLOG.md       # 개발 과정 · 과적합 등 시행착오 기록
 ```
